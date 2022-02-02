@@ -18,19 +18,19 @@ function Home() {
       <div className="home">
         {earthquakes.map((prod) => (
           <Link
-            to={`./Details/${prod.id}`}
+            to={`./Details/${prod?.id}`}
             className="earthquakes"
-            key={prod.id}
+            key={prod?.id}
           >
             <p>
               <b>Place: </b>
-              {prod.properties.place}
+              {prod?.properties?.place}
             </p>
             <p>
-              <b>Time:</b> {prod.properties.time}
+              <b>Time:</b> {prod?.properties?.time}
             </p>
 
-            <Link to={`./Details/${prod.id}`} className="icon" key={prod.id}>
+            <Link to={`./Details/${prod?.id}`} className="icon" key={prod?.id}>
               <b>Detail</b>
             </Link>
           </Link>
