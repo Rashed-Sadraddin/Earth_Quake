@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Earth_Quake/static/css/main.de4d7577.css",
+    "main.js": "/Earth_Quake/static/js/main.72383f04.js",
+    "static/js/787.a436bd58.chunk.js": "/Earth_Quake/static/js/787.a436bd58.chunk.js",
+    "index.html": "/Earth_Quake/index.html",
+    "main.de4d7577.css.map": "/Earth_Quake/static/css/main.de4d7577.css.map",
+    "main.72383f04.js.map": "/Earth_Quake/static/js/main.72383f04.js.map",
+    "787.a436bd58.chunk.js.map": "/Earth_Quake/static/js/787.a436bd58.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de4d7577.css",
+    "static/js/main.72383f04.js"
+  ]
+}
